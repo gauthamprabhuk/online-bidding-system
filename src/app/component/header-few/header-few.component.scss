@@ -1,0 +1,36 @@
+.bg-white {
+    background-color: #fff !important;
+}
+.form-control{
+    border-radius: 3px;
+    margin-left: 20px;
+    padding-left: 40px;
+}
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    left: 4%;
+    top: 7px;
+}
+
+input::placeholder {
+    padding-left: 2px; /* Placeholder text color (optional) */
+  }
+.position-relative{
+    position: relative !important;
+}
+.position-absolute{
+    position: absolute !important;
+}
+.header-class{
+position: sticky;
+top: 0;
+z-index: 999 !important;
+}
+.text-black{
+    color: #000;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}

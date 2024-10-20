@@ -1,0 +1,89 @@
+.hero-content{
+    height: 90vh;
+    overflow: auto;
+}
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+
+.item img {
+    width: 64px;
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.item a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+.card {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 6px 5px 4px rgba(204, 204, 204, 0.39);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.live-button{
+    background-color: #21A67A;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #21A67A;
+}
+.show-all{
+    border: 1px solid #000;
+    border-radius: 5px;   
+}
+.blue-color{
+    color: blue;
+}
+.fs-41px{
+    font-size: 41px;
+}
+.fs-21px{
+    font-size: 21px;
+}
+.primary-btn{
+    background: linear-gradient(90deg, #1D4ED8, #5AD7FE) !important;
+    border: none !important;
+    color: #FFF;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.btn-bidnow{
+    background: linear-gradient(90deg, #DB2721, #5AD7FE) !important;
+    border: none !important;
+    color: #FFF;
+}
+.br-50px{
+  border-radius: 50px;
+}
+.like-button{
+    position: absolute;
+    right: 16px;
+    top: 47px;
+}

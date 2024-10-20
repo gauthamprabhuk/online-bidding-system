@@ -1,0 +1,157 @@
+.login{
+    height: 100vh;
+    overflow: auto!important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+.login-box{
+    padding-top: 30px;
+}
+
+.logo h1 {
+    color: #0078FF;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.extra-options a {
+    text-decoration: none;
+    color: #0078FF;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0078FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.social-signin {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-signin p {
+    margin-bottom: 10px;
+}
+
+.social-btn {
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-link {
+    text-align: center;
+}
+
+.signup-link a {
+    color: #0078FF;
+    text-decoration: none;
+}
+
+/* Styling for the right-side illustration */
+.illustration {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.illustration img {
+    max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .login-box, .illustration {
+        width: 100%;
+        text-align: center;
+    }
+
+    .illustration {
+        margin-top: 20px;
+    }
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.br-5px{
+    border-radius: 5px !important;
+}
+.text-none{
+    text-decoration: none !important;
+}
+.option-login {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #DADCE3;
+    line-height: .1em;
+    margin: 30px 0 20px;
+}
+.option-login span {
+    background: #fff;
+    padding: 0 10px;
+}
+.login-image{
+    position: relative;
+    bottom: 140px;
+}
+.continue-btn{
+    background: linear-gradient(90deg, #1D4ED8, #5AD7FE);
+}
